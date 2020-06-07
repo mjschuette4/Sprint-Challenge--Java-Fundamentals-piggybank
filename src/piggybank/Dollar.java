@@ -40,6 +40,6 @@ public class Dollar extends AbstractMoney {
 
     @Override
     public String toString() {
-        return coinQuantity + " " + coinName;
+        return "$" + coinQuantity;
     }
 }

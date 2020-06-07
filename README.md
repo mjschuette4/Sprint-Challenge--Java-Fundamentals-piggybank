@@ -25,9 +25,20 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Describe why Java is called an object oriented, strongly typed language.
+
+  `It is considered a strongly typed language because every variable must be declared with a data type.`
+
 2. Give examples of Java Collections explaining the use and differences between them.
+
+  `Hashtable and Array. Arrays contain indexes which allow you to reference different things in the array specifically while a hashtable enumerates all the values it was given in the order the keys were given to it`
+
 3. What is recursion and how does it differ from regular looping?
+
+  `Recursion is a method call where the method that is being called is the same as the one making the call. It differs from regular looping in that in a regualr loop you are looping until a certain condition is met`
+
 4. Explain the differences between Abstract Classes and Interfaces including scenarios of when to use them.
+
+  `An interface can extend another java interface only whereas an abstract class can extend another java class and implement multiple java interfaces. Also members of a java interface are public by default whereas a java abstract class can have members like private and protected.`
 
 ## Instructions
 
