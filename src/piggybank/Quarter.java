@@ -4,7 +4,6 @@ public class Quarter extends AbstractMoney {
     private double coinValue = 0.25;
     private String coinName = "Quarter";
     private int coinQuantity;
-    private double coinBalance;
 
     public Quarter(int coinQuantity) {
         this.coinQuantity = coinQuantity;
@@ -41,6 +40,6 @@ public class Quarter extends AbstractMoney {
 
     @Override
     public String toString() {
-        return "$" + coinQuantity;
+        return coinQuantity + " " + coinName;
     }
 }

@@ -4,7 +4,6 @@ public class Dime extends AbstractMoney {
     private double coinValue = 0.10;
     private String coinName = "Dime";
     private int coinQuantity;
-    private double coinBalance;
 
     public Dime(int coinQuantity) {
         this.coinQuantity = coinQuantity;
@@ -41,6 +40,6 @@ public class Dime extends AbstractMoney {
 
     @Override
     public String toString() {
-        return "$" + coinQuantity;
+        return coinQuantity + " " + coinName;
     }
 }

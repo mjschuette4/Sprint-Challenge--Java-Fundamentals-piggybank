@@ -4,7 +4,6 @@ public class Nickel extends AbstractMoney {
     private double coinValue = 0.05;
     private String coinName = "Nickel";
     private int coinQuantity;
-    private double coinBalance;
 
     public Nickel(int coinQuantity) {
         this.coinQuantity = coinQuantity;
@@ -41,6 +40,6 @@ public class Nickel extends AbstractMoney {
 
     @Override
     public String toString() {
-        return "$" + coinQuantity;
+        return coinQuantity + " " + coinName;
     }
 }
