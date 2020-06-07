@@ -1,5 +1,5 @@
 package piggybank;
 
-public class Dime {
+public class Dime extends AbstractMoney {
     
 }

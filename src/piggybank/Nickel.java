@@ -1,5 +1,5 @@
 package piggybank;
 
-public class Nickel {
+public class Nickel extends AbstractMoney {
     
 }
